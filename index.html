@@ -11,16 +11,14 @@
     <header>
         <h1>Charlie Chaplin et ses films</h1>
         <nav>
-            <ul>
-                <a href=""><li>Biographie</li></a>
-                <a href=""><li>les trois plus grands films</li></a>
-                <a href=""><li>Film coup de coeur</li></a>
-                <a href=""><li>Contactez nous</li></a>
-            </ul>
+            <a href="#bio">Biographie</a>
+            <a href="#top-movis">les trois plus grands films</a>
+            <a href="#heart-movi">Film coup de coeur</a>
+            <a href="#contact">Contactez nous</a>
         </nav>
     </header>
     <main>
-        <section class="bio">
+        <section id="bio">
             <h2>Sa Biographie</h2>
             <p>Charlie Chaplin, de son vrai nom Charles Spencer Chaplin, est né le 16 avril 1889 
                 et est mort le 25 décembre. <br>
@@ -44,7 +42,7 @@
                 Charlie crée alors le costume et le maquillage qui le rendront célébre; en une année.
             </p>
         </section>
-        <section class="top-movis">
+        <section id="top-movis">
             <h2>ses trois plus grands films</h2>
             <div>
                 <h3><span class="number">I)</span> Les lumières de la ville (1931)</h3>
@@ -55,8 +53,13 @@
                         Suite à un malentendu, la jeune femme pense que le vagabond, qui lui a acheter une fleur,
                         est un milliadaire.
                     </p>
+                    <div>
+
+                    </div>
                 </div>
-                <div></div>
+                <div>
+                    <img src="assets/img/les_lumières_de_la_ville.jpg" alt="Afiche du film les lumières de la ville de Charlie Chaplin">
+                </div>
             </div>
             <div>
                 <h3><span class="number">II)</span> Le dictateur (1940)</h3>
@@ -69,8 +72,13 @@
                         sème la terreur dn le pays. C'est avec l'aide de sa compagne, Hannah, que le barbier resiste à
                          la menace que reprèsente les SS pour la petite communauté.
                     </p>
+                    <div>
+                        
+                    </div>
                 </div>
-                <div></div>
+                <div>
+                    <img src="assets/img/The_Dictator_(1940)_poster.jpg" alt="Afiche du film le dictateur de Charlie Chaplin">
+                </div>
             </div>
             <div>
                 <h3><span class="number">III)</span>Le Kid (1921)</h3>
@@ -80,17 +88,56 @@
                         Charlot, un vitrier miséreux, recueille un enfant abandonné par sa mère, 
                         mais les services sociaux s'en mêlent.
                     </p>
+                    <div>
+                        
+                    </div>
                 </div>
-                <div></div>
+                <div>
+                    <img src="assets/img/The_Kid_1921.jpg" alt="Afiche du film le Kid de Charlie Chaplin">
+                </div>
             </div>
         </section>
-        <section class="heart-movi">
+        <section id="heart-movi">
             <h2>Notre coup de coeur</h2>
             <div>
                 <h3>Les temps modernes (1936)</h3>
-                <div></div>
-                <div></div>
+                <div>
+                    <h4>synopsis</h4>
+                    <p>
+                        Ouvrier dans une immense usine, Charlot resserre quotidiennement des boulons. Mais 
+                        il demissionne car les machines et le travail a la chaîne le rendent malade.
+                    </p>
+                    <div>
+                        <iframe width="420" height="315" src="https://www.youtube.com/watch?v=h4rdulAGbbQ" frameborder="0" title="Court extrais des temps modernes de Charlie Chaplin"></iframe>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/img/LesTempsModernes1936.jpg" alt="Afiche du film les temps modernes de Charlie Chaplin">
+                </div>
+                <div>
+                    <p>
+                        Comique, intellectuelle, engagée, cette comédie caricature la classe ouvrière qui est exploitée 
+                        pendant les années 1930 et la reévolution industrielle. <br>
+                        c'est une oeuvre intemporelle au sujet qui est encore d'actualité
+                    </p>
+                </div>
             </div>
+        </section>
+        <section id="contact">
+            <form id="form_contact" action="get">
+                <label for="fname">Mail :</label><br>
+                <input type="email" name="email" id="mail">
+                <label for="fname">Objet:</label><br>
+                <select name="" id="">
+                    <option value="">----------------</option>
+                    <option value="sug_amelo">Suggestion d'amélioration</option>
+                    <option value="sug_film">Suggestion de film</option>
+                    <option value="autres">Autres</option>
+                </select>
+                <label for="fname">Sujet:</label><br>
+                <textarea name="sujet" id="suject" cols="30" rows="5"></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
         </section>
     </main>
     <footer>
