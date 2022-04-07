@@ -99,6 +99,7 @@ span {
     align-items: center;
 }
 .champ{
+    text-align: center;
     width: 30%;
     margin: 20px auto;
     height: 30px;
