@@ -1,5 +1,5 @@
 body {
-    max-width: 1500px;
+    max-width: 1600px;
     font-size: 1.4em;
     background-color: bisque;
 } 
@@ -82,9 +82,6 @@ span {
     font-style: italic;
     font-weight: bold;
 }
-/* .mouvis{
-    background-color: lime;
-} */
 .film {    
     display: flex;
 }
@@ -110,4 +107,19 @@ textarea {
     height: 200px;
 }
 
+footer {
+    height: 150px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    
+}
+footer a:hover, i:hover {
+    color: white;
+    background-color: burlywood;    
+}
+i {
+    color: black;
+}
 
